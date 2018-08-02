@@ -1,19 +1,19 @@
-var postUrl = 'http://localhost:3000/schedules/add';
-var data = {
-    name: 'djamale',
-    phone: '080808'
-}
+fetch("http://localhost:3000/schedules")
+    .then(response => {
+        return response.json();
+    })
+    .then(data => {
+        data.map()
+    });
 
-fetch(postUrl, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: JSON.stringify(data),
-    })
-    .then(res => {
-        res.json();
-    })
-    .catch(error => console.log('Error: ',
-        error))
-    .then(response => console.log('Success: ', response))
+function participants(array) {
+    var name = [array.name];
+    var date = [array.date];
+    var from = [array.from];
+    var destination = [array.destination];
+    var ferry_name = [array.ferry_name];
+
+    var showParticipants = document.getElementById("container-card").innerHTML = document.getElementById("container-card").innerHTML +
+        `<div class='col-3'> <div class='card' style='width: 18rem;'> <div class='card-body'> <p>${name}</p> <p>${date}</p> <p>${from}</p>
+    <p>${destination}</p> <p>${ferry_name}</p> </div> </div> </div>`
+}
