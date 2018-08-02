@@ -10,6 +10,7 @@ mongoose.connect(dbConfig.url);
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+app.use(bodyParser.json());
 
 require('./route/book-route')(app);
 
