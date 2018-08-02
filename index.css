@@ -1,3 +1,11 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+.positionByTujuan {
+    padding-left: 35px;
+}
+
+.positionByCalendar {
+    padding-left: 35px;
+}
+
+.positionByPenumpang {
+    padding-left: 35px;
 }
