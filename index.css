@@ -1,11 +1,69 @@
-.positionByTujuan {
-    padding-left: 35px;
+body {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.positionByCalendar {
-    padding-left: 35px;
+.bg-dark {
+    background-color: #43C8FA !important;
 }
 
-.positionByPenumpang {
-    padding-left: 35px;
+.btn-outline-success {
+    color: #292727;
+    background-color: transparent;
+    background-image: none;
+    border-color: #292727;
+}
+
+.penyengat {
+    background: url('./assets/penyengat.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bintan {
+    background: url('./assets/bintan.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.anambas {
+    background: url('./assets/anambas.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.trikora {
+    background: url('./assets/trikora.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.rajaampat {
+    background: url('./assets/rajaampat.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.airterjun {
+    background: url('./assets/airtejun\ karimun.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.p {
+    color: yellow;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.backgroundForm {
+    background-color: #43C8FA;
+    height: 100px;
+    position: justify;
 }
